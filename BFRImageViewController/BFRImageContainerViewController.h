@@ -26,4 +26,6 @@
 /*! If there is more than one image in the containing @c BFRImageViewController - this property is set to YES to make swiping from image to image easier. */
 @property (nonatomic, getter=shouldDisableHorizontalDrag) BOOL disableHorizontalDrag;
 
+@property (strong, nonatomic, nullable) NSURLSessionConfiguration *configuration;
+
 @end

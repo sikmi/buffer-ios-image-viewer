@@ -34,6 +34,8 @@
 /*! This is used for nothing more than to defer the hiding of the status bar until the view appears to avoid any awkward jumps in the presenting view. */
 @property (nonatomic, getter=shouldHideStatusBar) BOOL hideStatusBar;
 
+@property (strong, nonatomic, nullable) NSURLSessionConfiguration *configuration;
+
 @end
 
 @implementation BFRImageViewController
@@ -48,6 +50,21 @@
         self.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
         self.enableDoneButton = YES;
         self.showDoneButtonOnLeft = YES;
+    }
+    
+    return self;
+}
+
+- (instancetype)initWithImageSource:(NSArray *)images configuration:(NSURLSessionConfiguration*)configuration {
+    self = [super init];
+    
+    if (self) {
+        NSAssert(images.count > 0, @"You must supply at least one image source to use this class.");
+        self.images = images;
+        self.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        self.enableDoneButton = YES;
+        self.showDoneButtonOnLeft = YES;
+        self.configuration = configuration;
     }
     
     return self;
@@ -84,6 +101,7 @@
     self.imageViewControllers = [NSMutableArray new];
     for (id imgSrc in self.images) {
         BFRImageContainerViewController *imgVC = [BFRImageContainerViewController new];
+        imgVC.configuration = self.configuration;
         imgVC.imgSrc = imgSrc;
         imgVC.pageIndex = self.startingIndex;
         imgVC.usedFor3DTouch = self.isBeingUsedFor3DTouch;

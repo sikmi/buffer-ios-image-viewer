@@ -36,6 +36,8 @@
 /*! The behavior which allows for the image to "snap" back to the center if it's vertical offset isn't passed the closing points. */
 @property (strong, nonatomic, nonnull) UIAttachmentBehavior *imgAttatchment;
 
+@property (strong, nonatomic, nonnull) PINRemoteImageManager *remoteImageManager;
+
 @end
 
 @implementation BFRImageContainerViewController
@@ -44,6 +46,8 @@
 // With peeking and popping, setting up your subviews in loadView will throw an exception
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.remoteImageManager = [[PINRemoteImageManager alloc] initWithSessionConfiguration:self.configuration];
     
     // View setup
     self.automaticallyAdjustsScrollViewInsets = NO;
@@ -382,7 +386,7 @@
 - (void)retrieveImageFromURL {
     NSURL *url = (NSURL *)self.imgSrc;
     
-    [[PINRemoteImageManager sharedImageManager] downloadImageWithURL:url options:0 progressDownload:^(int64_t completedBytes, int64_t totalBytes) {
+    [self.remoteImageManager downloadImageWithURL:url options:0 progressDownload:^(int64_t completedBytes, int64_t totalBytes) {
         float fractionCompleted = (float)completedBytes/(float)totalBytes;
         dispatch_async(dispatch_get_main_queue(), ^{
             [self.progressView setProgress:fractionCompleted];

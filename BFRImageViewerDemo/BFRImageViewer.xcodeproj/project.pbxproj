@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1702C69A1F86BBFC00104D0B /* BFRImageViewerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1702C6991F86BBFC00104D0B /* BFRImageViewerConstants.m */; };
+		1702C69C1F86C3A400104D0B /* lowResImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1702C69B1F86C32100104D0B /* lowResImage.png */; };
+		170BE4FF212DBB2B005703C6 /* BFRImageViewerDownloadProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170BE4FE212DBB2B005703C6 /* BFRImageViewerDownloadProgressView.m */; };
 		171F4AD01E96BE0500F4AF01 /* BFRBackLoadedImageSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 171F4ACF1E96BE0500F4AF01 /* BFRBackLoadedImageSource.m */; };
 		171F4AD31E96C31400F4AF01 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171F4AD21E96C31400F4AF01 /* FourthViewController.m */; };
-		171F4AD71E96D56D00F4AF01 /* lowResImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 171F4AD61E96D56D00F4AF01 /* lowResImage.png */; };
 		1797CB8E1E81BB4F00D9F729 /* BFRImageTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1797CB8D1E81BB4F00D9F729 /* BFRImageTransitionAnimator.m */; };
 		1797CB911E81BBB200D9F729 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1797CB901E81BBB200D9F729 /* ThirdViewController.m */; };
 		17C1AAB61D9D6EBF00FF1B67 /* BFRImageViewerLocalizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17C1AAB51D9D6EBF00FF1B67 /* BFRImageViewerLocalizations.bundle */; };
@@ -24,15 +26,20 @@
 		944B4DC11BFFC0C000B9BF87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944B4DBF1BFFC0C000B9BF87 /* LaunchScreen.storyboard */; };
 		944B4DE91BFFC0E300B9BF87 /* BFRImageContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B4DE61BFFC0E300B9BF87 /* BFRImageContainerViewController.m */; };
 		944B4DEA1BFFC0E300B9BF87 /* BFRImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B4DE81BFFC0E300B9BF87 /* BFRImageViewController.m */; };
+		95D4797D1F97C348001E54D4 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D4797C1F97C348001E54D4 /* FifthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1264A436520DEA8753316972 /* Pods-BFRImageViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFRImageViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-BFRImageViewer/Pods-BFRImageViewer.release.xcconfig"; sourceTree = "<group>"; };
+		1702C6981F86BBFC00104D0B /* BFRImageViewerConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFRImageViewerConstants.h; sourceTree = "<group>"; };
+		1702C6991F86BBFC00104D0B /* BFRImageViewerConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFRImageViewerConstants.m; sourceTree = "<group>"; };
+		1702C69B1F86C32100104D0B /* lowResImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lowResImage.png; sourceTree = "<group>"; };
+		170BE4FD212DBB2B005703C6 /* BFRImageViewerDownloadProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFRImageViewerDownloadProgressView.h; sourceTree = "<group>"; };
+		170BE4FE212DBB2B005703C6 /* BFRImageViewerDownloadProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFRImageViewerDownloadProgressView.m; sourceTree = "<group>"; };
 		171F4ACE1E96BE0500F4AF01 /* BFRBackLoadedImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFRBackLoadedImageSource.h; sourceTree = "<group>"; };
 		171F4ACF1E96BE0500F4AF01 /* BFRBackLoadedImageSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFRBackLoadedImageSource.m; sourceTree = "<group>"; };
 		171F4AD11E96C31400F4AF01 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		171F4AD21E96C31400F4AF01 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
-		171F4AD61E96D56D00F4AF01 /* lowResImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lowResImage.png; sourceTree = "<group>"; };
 		1797CB8C1E81BB4F00D9F729 /* BFRImageTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFRImageTransitionAnimator.h; sourceTree = "<group>"; };
 		1797CB8D1E81BB4F00D9F729 /* BFRImageTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFRImageTransitionAnimator.m; sourceTree = "<group>"; };
 		1797CB8F1E81BBB200D9F729 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
@@ -58,6 +65,8 @@
 		944B4DE61BFFC0E300B9BF87 /* BFRImageContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFRImageContainerViewController.m; sourceTree = "<group>"; };
 		944B4DE71BFFC0E300B9BF87 /* BFRImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFRImageViewController.h; sourceTree = "<group>"; };
 		944B4DE81BFFC0E300B9BF87 /* BFRImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFRImageViewController.m; sourceTree = "<group>"; };
+		95D4797B1F97C348001E54D4 /* FifthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		95D4797C1F97C348001E54D4 /* FifthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +92,7 @@
 		578DFD551CB6E7F400BFBD00 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				171F4AD61E96D56D00F4AF01 /* lowResImage.png */,
+				1702C69B1F86C32100104D0B /* lowResImage.png */,
 				578DFD581CB6F17B00BFBD00 /* cross.png */,
 				578DFD591CB6F17B00BFBD00 /* cross@2x.png */,
 				578DFD5A1CB6F17B00BFBD00 /* cross@3x.png */,
@@ -127,6 +136,8 @@
 				944B4DAE1BFFC0C000B9BF87 /* Supporting Files */,
 				171F4AD11E96C31400F4AF01 /* FourthViewController.h */,
 				171F4AD21E96C31400F4AF01 /* FourthViewController.m */,
+				95D4797B1F97C348001E54D4 /* FifthViewController.h */,
+				95D4797C1F97C348001E54D4 /* FifthViewController.m */,
 			);
 			path = BFRImageViewer;
 			sourceTree = "<group>";
@@ -152,6 +163,10 @@
 				1797CB8D1E81BB4F00D9F729 /* BFRImageTransitionAnimator.m */,
 				171F4ACE1E96BE0500F4AF01 /* BFRBackLoadedImageSource.h */,
 				171F4ACF1E96BE0500F4AF01 /* BFRBackLoadedImageSource.m */,
+				1702C6981F86BBFC00104D0B /* BFRImageViewerConstants.h */,
+				1702C6991F86BBFC00104D0B /* BFRImageViewerConstants.m */,
+				170BE4FD212DBB2B005703C6 /* BFRImageViewerDownloadProgressView.h */,
+				170BE4FE212DBB2B005703C6 /* BFRImageViewerDownloadProgressView.m */,
 			);
 			name = BFRImageViewController;
 			path = ../../BFRImageViewController;
@@ -177,8 +192,6 @@
 				944B4DA71BFFC0C000B9BF87 /* Sources */,
 				944B4DA81BFFC0C000B9BF87 /* Frameworks */,
 				944B4DA91BFFC0C000B9BF87 /* Resources */,
-				978A01AA282D37386C67AD06 /* [CP] Embed Pods Frameworks */,
-				FC7DE66A0F2E7C3D782C1853 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,12 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1702C69C1F86C3A400104D0B /* lowResImage.png in Resources */,
 				578DFD5C1CB6F17B00BFBD00 /* cross@2x.png in Resources */,
 				944B4DC11BFFC0C000B9BF87 /* LaunchScreen.storyboard in Resources */,
 				578DFD5D1CB6F17B00BFBD00 /* cross@3x.png in Resources */,
 				578DFD5B1CB6F17B00BFBD00 /* cross.png in Resources */,
 				17C1AAB61D9D6EBF00FF1B67 /* BFRImageViewerLocalizations.bundle in Resources */,
-				171F4AD71E96D56D00F4AF01 /* lowResImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,43 +258,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BFRImageViewer-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		978A01AA282D37386C67AD06 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BFRImageViewer/Pods-BFRImageViewer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC7DE66A0F2E7C3D782C1853 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BFRImageViewer/Pods-BFRImageViewer-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -292,12 +278,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				944B4DB91BFFC0C000B9BF87 /* SecondViewController.m in Sources */,
+				170BE4FF212DBB2B005703C6 /* BFRImageViewerDownloadProgressView.m in Sources */,
 				1797CB8E1E81BB4F00D9F729 /* BFRImageTransitionAnimator.m in Sources */,
 				1797CB911E81BBB200D9F729 /* ThirdViewController.m in Sources */,
+				95D4797D1F97C348001E54D4 /* FifthViewController.m in Sources */,
 				944B4DEA1BFFC0E300B9BF87 /* BFRImageViewController.m in Sources */,
 				944B4DB31BFFC0C000B9BF87 /* AppDelegate.m in Sources */,
 				171F4AD01E96BE0500F4AF01 /* BFRBackLoadedImageSource.m in Sources */,
 				171F4AD31E96C31400F4AF01 /* FourthViewController.m in Sources */,
+				1702C69A1F86BBFC00104D0B /* BFRImageViewerConstants.m in Sources */,
 				944B4DE91BFFC0E300B9BF87 /* BFRImageContainerViewController.m in Sources */,
 				944B4DB61BFFC0C000B9BF87 /* FirstViewController.m in Sources */,
 				944B4DB01BFFC0C000B9BF87 /* main.m in Sources */,
@@ -413,6 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UYDA63C4EC;
 				INFOPLIST_FILE = BFRImageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buffer.BFRImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UYDA63C4EC;
 				INFOPLIST_FILE = BFRImageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buffer.BFRImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
